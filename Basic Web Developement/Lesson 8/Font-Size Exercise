@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Daily Routine</title>
+</head>
+    
+<body>
+  <h1 style="font-family: Georgia;">My Daily Routine</h1>
+  <p style="font-family:Cambria; font-size: 20px;">Disclaimer: This is not how everyday goes for me but its what a day looks like on average.</p>
+  <p style="font-family:Cambria; font-size: 18px;">1. Wake up at 8 am and make my bed</p>
+  <p style="font-family:Cambria; font-size: 18px;">2. Brush teeth and empty dishwasher</p>
+  <p style="font-family:Cambria; font-size:18px;">3. Write a To-Do list and work on easiest task first</p>
+</body>
+
+</html>
