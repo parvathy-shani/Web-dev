@@ -1,0 +1,58 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Use a more sophisticated font */
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+  background: linear-gradient(to bottom, #000000, #474747);
+}
+
+.header {
+  background: linear-gradient(to bottom, #000000, #474747);
+  padding: 20px;
+  text-align: center;
+}
+
+.company-name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff; /* Set font color to a dark gray */
+}
+
+.website {
+  margin: 0;
+  color: #ffffff;
+  font-style: italic;
+  color: #828080; /* Set font color to a dark gray */
+}
+
+/* Styles for the gallery container */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(to top, #000000, #474747);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the gallery image items */
+.gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.05) translateY(-5px);
+}
