@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    /* Add desired background color */
+    background-color: #e995b7;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+  
+tr:hover {
+    /* Add desired hover background color */
+    background-color: #e6399e;
+}
+  
+caption {
+    font-weight: bold;
+    padding: 10px;
+    /* Add desired caption background color */
+    background-color: #ef87bf; 
+}
