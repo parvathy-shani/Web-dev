@@ -17,7 +17,7 @@ This repository contains a simple HTML and CSS implementation of the navbar part
 
 ## Features
 
-- Design: The navbar has looks and feel of original Tesla Website, and wprks better on Desktop.
+- Design: The navbar has looks and feel of original Tesla Website, and works better on Desktop.
 - Menu items: Recreates the main menu items present on the original Tesla website.
 
 ## Installation
