@@ -8,7 +8,7 @@ This repository contains a simple HTML and CSS implementation of the Section Two
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Demo
 
