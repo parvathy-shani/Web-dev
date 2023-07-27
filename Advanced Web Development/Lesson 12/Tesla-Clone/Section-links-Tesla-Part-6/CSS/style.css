@@ -1,0 +1,196 @@
+/* Common CSS required */
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a, h1, h2, h3, h4, h5, h6, p {
+    font-family: system-ui;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* CSS for nav bar  */
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    background: #0000004a;
+    z-index: 1; /* to make links work*/
+}
+
+nav .left-nav{
+    width: 20%;
+}
+
+nav .middle-nav {
+    width: 60%;
+    text-align: center;
+}
+
+nav .right-nav{
+    width: 20%;
+    text-align: center;
+}
+
+/* defining with of image */
+nav .left-nav a img {
+    width: 45%;
+}
+
+/* CSS for text in nav bar of site  */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.underline-it{
+    text-decoration: underline;
+    color: black;
+}
+/* Section 1 design  */
+
+.section-01 .binded{
+    position: absolute;
+    top: 14%;
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    height: 88%;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.h1-shadow{
+    text-shadow: 0 0 11px #00000038;
+}
+.binded h1{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.section-01 button {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 2px;
+    width: 14%;
+    padding: 7px 4px;
+}
+
+.section-01 button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Section 2 design  */
+
+.section-02{
+    background-image: url('../Image/Model-3.jpg');
+    background-size: cover;
+    padding: 12% 2%;
+}
+
+.section-02 .binded{
+    color: black;
+    text-align: center;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-btn {
+    background-color: rgba(244, 244, 244, 0.8);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 70px;
+}
+
+.second-btn{
+    background-color: rgba(23, 26, 32, 0.65);
+}
+
+.first-btn a{
+    font-size: 16px;
+    color: #393c41;
+    font-weight: 500;
+}
+
+.second-btn a{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.margin-01{
+    margin-right: 1%;
+}
+
+/* Section 3 design  */
+.section-03{
+    background-image: url('../Image/Model-Y.png');
+}
+
+/* Section 4 design  */
+.section-04{
+    background-image: url('../Image/Model-S.jpg');
+}
+
+/* Section 5 design  */
+.section-05{
+    background-image: url('../Image/Model-X.jpg');
+}
+
+/* Section 6 design  */
+.section-06{
+    background-image: url('../Image/SolarPanels.jpg');
+}
+
+/* Section 7 design  */
+.section-07{
+    background-image: url('../Image/Homepage-SolarRoof.jpg');
+}
+
+/* Section 8 design  */
+.section-08{
+    background-image: url('../Image/Homepage-Powerwall.jpg');
+}
+
+/* Section 9 design  */
+.section-09{
+    background-image: url('../Image/Homepage-Accessories.jpg');
+}
+
+/* Footer design  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1180%;
+    width: 100%;
+}
+
+footer a {
+    margin-right: 1%;
+    font-size: 14px;
+    color: #d0d1d2;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer a:visited, footer a:active, footer a:focus, footer a:target{
+    color: white;
+}
