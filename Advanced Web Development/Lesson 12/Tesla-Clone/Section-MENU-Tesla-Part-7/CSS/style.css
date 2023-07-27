@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background: #0000004a;
+    z-index: 1; /* to make links work*/
 }
 
 nav .left-nav{
@@ -50,6 +51,10 @@ nav a {
     padding-left: 12px;
 }
 
+.underline-it{
+    text-decoration: underline;
+    color: black;
+}
 /* Section 1 design  */
 
 .section-01 .binded{
@@ -168,7 +173,6 @@ nav a {
 
 /* Footer design  */
 footer{
-    color: #d0d1d2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,4 +184,88 @@ footer{
 footer a {
     margin-right: 1%;
     font-size: 14px;
+    color: #d0d1d2;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer a:visited, footer a:active, footer a:focus, footer a:target{
+    color: white;
+}
+
+/* Menu design  */
+
+.box-on{
+    right: 0;
+    width: 15%;
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    background: white;
+    display: block;
+}
+/* Show the backdrop when the menu is open */
+.backdrop-section {
+    display: none;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    z-index: 998; /* Lower z-index than .box-on, so it doesn't cover the menu */
+    position: fixed;
+    background: #00000085;
+}
+
+
+/* Show the menu when #menuBox is targeted */
+#menu:target {
+    display: block;
+}
+
+
+.box-on .Menu-Items{
+    background: white;
+    padding: 8% 8%;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.box-on .Menu-Items ol{
+    list-style: none;
+    width: 88%;
+    color: #46494e;
+}
+
+.box-on .Menu-Items ol li{
+    margin: 1% 0;
+    padding: 4% 6%;
+    border-radius: 6px;
+}
+
+.box-on .Menu-Items ol li a{
+    color: #46494e;
+    font-weight: 500;
+}
+
+.globe .btn-it{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+}
+
+.globe .btn-it .globe-svg{
+    width: 24px!important;
+    padding: 4% 4% 4% 0%;
+}
+
+.box-on .Menu-Items a img {
+    width: 15px;
+    opacity: 0.6;
+}
+
+.box-on .Menu-Items ol li:hover{
+    background: #f4f4f4;
+
 }
