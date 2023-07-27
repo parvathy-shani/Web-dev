@@ -13,7 +13,7 @@ This repository contains a simple HTML and CSS implementation of the Part 7 part
 ## Demo
 
 * Here's screenshot of how it should look ~ This is screenshot of all three sections.
-![DEMO](DEMO.png)
+![DEMO](DEMOO.png)
 
 ## Features
 
